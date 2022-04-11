@@ -1,0 +1,66 @@
+
+$primaryColor: #008561;
+
+h1{
+  padding-left: 40px;
+}
+
+.register{
+  padding: 0 2.5rem;
+  display: flex;
+  height: 50px;
+
+  &__field {
+    border: 1px solid #dcdcdc;
+    padding: .25rem .75rem;
+    font-size: 20px;
+    color: #595959;
+    width: 808px;
+  }
+
+  &__field:focus {
+    outline: none;
+    box-shadow: 0 0 5px $primaryColor;
+  }
+
+  &__btn {
+    background-color: $primaryColor;
+    color: white;
+    padding: .75rem 1.25rem;
+    border: none;
+  }
+
+}
+
+.list{
+  margin-top: 2rem;
+
+  &__container {
+    display: flex;
+  }
+
+  &__item {
+    list-style: none;
+    line-height: 2;
+    background: #eee;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    padding: 12px 20px 12px 20px;
+    width: 800px;
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    background-color: $primaryColor;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: baseline;
+    height: 52px;
+  }
+
+}
+
